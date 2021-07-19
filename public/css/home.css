@@ -1,0 +1,155 @@
+
+
+
+/* MAIN */
+
+.home main .main{
+    width: 90%;
+    margin: auto;
+}
+
+.home main .banner{
+    display: none;
+}
+
+.home main section h2{
+    display: inline-block;
+    margin: 20px auto 30px auto;
+    font-size: 24px;
+}
+
+.home main section .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.home main article{
+    background-color: #ffffff;
+    margin-bottom:10px;
+}
+
+.home main article div {
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    position: relative;
+}
+
+.home main section article div i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    color: #39b54a;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    }
+
+
+.home article .price{
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-block;
+    width: 30%;
+}
+
+.home article .discount{
+    font-size: 16px;
+    color: #39b54a;
+    margin-bottom: 15px;
+    display: inline-block;
+    width: 68%;
+}
+
+.home article h3{
+    font-size: 16px;
+    display: none;
+}
+
+
+/* TABLET Y DESKTOP*/
+
+
+@media (min-width:768px){
+
+ 
+
+
+    /* MAIN */
+
+    .home main .banner {
+        display: block;
+    }
+
+    .home main section h2 {
+        margin: 3vw auto 5vw auto;
+        font-size: 4vw;
+    }
+
+    .home main article h3{
+        display: block;
+        font-weight: 400;
+    }
+
+    .home main article{
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+        width: 41vw;
+    }
+    .home .flex-container{
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    
+}
+}
+
+
+@media (min-width:1024px){
+
+
+    .home main section h2 {
+        margin: 1.9vw auto 2.9vw auto;
+        font-size: 2.8vw;
+    }
+
+    .home main article {
+        width: 19.3vw;
+    }
+    .home article:hover{
+        box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 ), 0px 35px 10px rgb( 100 , 100 , 100 );
+    }
+    .home main article h3{
+        display: none;
+    }
+    .home main article:hover h3{
+        display: block;
+    }
+    .home article div i{
+        transition: girar 0.5s;
+    }
+    
+   
+    @keyframes rotate {
+        0%{
+            transform: rotate(0deg);
+        }
+        50%{
+            transform: rotate(360deg)
+        }
+        100%{
+            transform: rotate(0geg);
+        }
+    }
+
+    .home article div:hover i{
+        animation-name: rotate;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+}

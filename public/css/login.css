@@ -1,0 +1,68 @@
+
+.login main form {
+    width: 80%;
+    margin: 9vw auto 50px auto;
+}
+
+.login main input {
+    width: 100%;
+    height: 14vw;
+    background-color: #ffffff;
+    margin: 20px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 5vw;
+    text-indent: 5px;
+}
+
+.login main form span{
+    color: rgb(226, 2, 2);
+}
+
+.login main form button {
+    width: 100%;
+    height: 15vw;
+    background-color: #818181;
+    color: #ffffff;
+    border-radius: 5px;
+    display: block;
+    border: none;
+    font-size: 6vw;
+    margin: 20px 0 0 0;
+    transition: all 500ms;
+}
+
+.login main form button:hover{
+    background-color: #0022AA;
+}
+
+@media (min-width:768px){
+
+    .login main form{
+        width: 70%;
+        margin: 9vw auto 50px auto;
+    }
+    
+    .login main input{
+        width: 100%;
+        height: 6vw;
+        margin: 20px 0;
+        font-size: 2.5vw;
+        text-indent: 5px;
+    }
+
+
+    .login main form button{
+        width: 100%;
+        height: 6vw;
+        font-size: 3vw;
+        margin: 20px 0 0 0;
+    }
+}
+
+@media (min-width:1024px){
+
+    .login main form {
+        width: 50%;
+    }
+}

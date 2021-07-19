@@ -1,0 +1,122 @@
+/* HEADER */
+
+ header{
+    background-color: #EAC926;
+    padding: 20px 10px 0 10px;
+}
+
+ header img{
+    width: 50%;
+    display: inline-block;
+}
+
+ header form{
+    display: inline-block;
+    width: 48.6%;
+    position: relative;
+    height: 34px;
+    text-align: center;
+    bottom: 3.7vw;
+}
+
+ header form input{
+    width: 90.6%;
+    height: 100%;
+    border: none;
+    text-indent: 7.4px;
+    border-radius: 5px;
+}
+
+ header form button{
+    position: absolute;
+    background-color: white;
+    border: none;
+    top: 25%;
+    color: gray;
+    right: 10.4%;
+}
+
+ header .cuotes-container  {
+    text-align: center;
+    margin: 10px 0px;
+}
+
+ header h2{
+    display: inline;
+    text-align: center;
+    margin: 10px 0px 5px 0px;
+    /* font-size: 80%; */
+}
+
+ header .nav-1,.nav-2{
+    margin: 20px 0px 10px 5px;
+    display: none;
+}
+
+ header .burger{
+    padding: 10px;
+    display: inline-block;
+    margin: 10px 0px 10px 45%;
+    border-radius: 5px;
+    background-color: #1259c3;
+    color: #ffffff;
+}
+
+
+@media (min-width:768px){
+   /* HEADER */
+
+    
+    header .search-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ header .nav-1, .nav-2{
+    display: flex;
+}
+
+ header .nav-1 li, header .nav-2 li{
+    margin: 5px;
+}
+
+ header img {
+    width: 250px;
+}
+
+ header form {
+    display: inline-block;
+    width: 30.3%;
+    bottom: 0;
+}
+
+ header .c-cuotas {
+    display: inline-block;
+    width: 242.9px;
+    position: relative;
+}
+
+ header .nav-1 a,.nav-2 a{
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+ header .burger{
+    display: none;
+}
+
+}  
+
+
+@media (min-width:1024px){
+
+     header .nav-1 li,  header .nav-2 li {
+        margin: 15px;
+    }
+}
